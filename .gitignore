@@ -1,0 +1,26 @@
+cd "D:\New folder\chatbot-ibtikar"
+
+@"
+venv39/
+.venv/
+venv/
+
+# Vector/index artifacts
+vectorstore/
+vector_db.index
+documents.pkl
+*.faiss
+docs.json
+*.pkl
+
+# Secrets / local state
+.env
+token.json
+auth.json
+
+# Misc
+__pycache__/
+*.pyc
+logs/
+.streamlit/
+"@ | Set-Content -Encoding UTF8 .gitignore

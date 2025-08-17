@@ -1,0 +1,18 @@
+gdocs:
+  - id: 1NzO4Lu9zAlUeDdaVIZCWlnz8_H4UCD3tMAyTIfYwSVs
+  - id: 1rqz-KagMXdmgDP4MR8L63E2YXGGZAwIYztGc1jJc66g
+
+web:
+  - seed: https://teknofest.ibtikar.org.tr/
+    allow: ["https://teknofest.ibtikar.org.tr/"]
+    deny: []
+
+  - seed: https://ibtikar.org.tr/ar/
+    allow: ["https://ibtikar.org.tr/ar/", "https://ibtikar.org.tr/"]
+    deny: []
+
+login_web:
+  - base: https://lms.ibtikar.org.tr
+    after_paths:
+      - /my/
+      - /course/index.php

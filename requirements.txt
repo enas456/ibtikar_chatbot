@@ -1,0 +1,9 @@
+streamlit>=1.31
+ollama
+faiss-cpu
+numpy
+python-dotenv
+requests
+
+
+
